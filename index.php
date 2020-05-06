@@ -13,9 +13,8 @@ include 'controllers/control.php';
   <body>
   <nav class="navbar navbar-light" he  style="background-color: #EEEB2B">
         <a href="index.php"><img id=logo1 src="img/logo.png"></a>
-
         <form class="form-inline my-2 my-lg-0">
-        <a href="view/registroCliente.php"><H1>Crear Cuenta</H1></a>
+        <a href=""><H1>Crear Cuenta</H1></a>
         </form>
   </nav>
 <div class="modal-dialog text-center">
@@ -29,7 +28,7 @@ include 'controllers/control.php';
       </div> 
       <form class="col-12" action="" method="POST">
           <div class="form-group">
-            <input type="text" name="username" class="form-control" placeholder="Usuario" require>
+            <input type="text" name="username" class="form-control" placeholder="Correo Electrónico" require>
           </div>
           <div class="form-group">
             <input type="password" name="password" class="form-control" placeholder="Contraseña">
